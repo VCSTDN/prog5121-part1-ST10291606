@@ -24,8 +24,8 @@ public class KankanboardTest {
     }
 
     @Test
+    // Testing the checkUsername method to ensure it checks the input properly and produces the relevant outcome
     public void testCheckUsername() {
-        
         
         boolean expected = true;
         boolean actual = kankanboard.checkUsername("kyl_1");
@@ -35,14 +35,12 @@ public class KankanboardTest {
         boolean expected2 = false;
         boolean actual2 = kankanboard2.checkUsername("kyle!!!!!!!");
         
-        assertEquals(expected2, actual2);
-        
-        
-        
+        assertEquals(expected2, actual2);  
         
     }
 
     @Test
+    // Testing the checkPassword method to ensure it checks the password input properly and produces the relevant outcome.
     public void testCheckPassword() {
         
         

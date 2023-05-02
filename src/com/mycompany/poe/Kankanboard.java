@@ -10,10 +10,8 @@ package com.mycompany.poe;
  */
 
 import java.util.Scanner; // allows for the user of scanners in the application
-import java.io.*;
-import java.lang.*;
-import java.util.regex.Matcher; // allows for the matcher class to be used in regular expressions
-import java.util.regex.Pattern; // allows for the pattern class to be used in regular expressions
+import java.util.regex.Matcher; // allows for the matcher class to be used in regular expressions (w3schools.com/2023)
+import java.util.regex.Pattern; // allows for the pattern class to be used in regular expressions (w3schools.com/2023)
 
 
 public class Kankanboard {
@@ -45,7 +43,7 @@ public class Kankanboard {
 
             if (choice == 1) {
                 System.out.println("What is your name? ");
-                input.nextLine(); // tkes the user next input so as to not record wrong input as answer to the next questions
+                input.nextLine(); // takes the user next input so as to not record wrong input as answer to the next questions
                 accname = input.nextLine(); // stores the accname as the users input
                
                 
@@ -149,7 +147,6 @@ public class Kankanboard {
         return register;
         
     }
-    
         
 } 
      

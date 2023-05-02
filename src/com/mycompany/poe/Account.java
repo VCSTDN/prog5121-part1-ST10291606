@@ -11,10 +11,10 @@ package com.mycompany.poe;
 public class Account {
     
     //Variables for the Account class are declared 
-    String name;
-    String surname;
-    String username;
-    String password;
+    private String name;
+    private String surname;
+    private String username;
+    private String password;
     
     
     // set methods for all declared variables

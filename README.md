@@ -52,4 +52,4 @@ Available at: https://www.w3schools.com/java/java_encapsulation.asp
 
 ## License & Copyright
 
-© Tristan C McDonald, Varsity College 20116247
+© Aron D McDonald, Varsity College ST10291606
